@@ -1,0 +1,48 @@
+input[type=button] {
+	display: block;
+	margin: 5px 0;
+}
+
+div.pageDummy {
+	height: 60px;
+	width: 40px;
+	background: #fff;
+	display: inline-block;
+	margin: 5px;
+	text-align: center;
+	position: relative;
+}
+
+div.pageDummy p {
+	font-size: 10px;
+	margin: 0;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+}
+
+h3 {
+	margin: 5px 0px;
+}
+
+h1#welcomeHello {
+	margin-bottom: 0;
+}
+
+p#welcomeTxt {
+	font-weight: 600;
+	margin-top: 6px;
+}
+
+div#jobinfo p {
+	margin: 0;
+}
+
+div#cepCsMw h6 {
+	margin-bottom: 5px;
+}
+
+button.spectrum-Button {
+	margin: 1px;
+}

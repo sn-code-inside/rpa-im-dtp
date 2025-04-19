@@ -1,0 +1,19 @@
+{
+  "name": "rpaidtp.cepext",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@spectrum-css/button": "^4.1.2",
+    "@spectrum-css/textfield": "^3.0.7",
+    "@spectrum-css/typography": "^4.0.4",
+    "@spectrum-web-components/button": "^0.41.2",
+    "fs-extra": "^11.2.0",
+    "loadicons": "^1.0.0"
+  }
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionList>
+	<Extension Id="RPAiDTP.CEPPanel">
+		<HostList>
+			<Host Name="IDSN" Port="5959"/>
+			<Host Name="PHXS" Port="5960"/>
+			<Host Name="ILST" Port="5961"/>
+		</HostList>
+	</Extension>
+	<Extension Id="RPAiDTP.CEPPanelTwo">
+		<HostList>
+			<Host Name="IDSN" Port="6059"/>
+			<Host Name="PHXS" Port="6060"/>
+			<Host Name="ILST" Port="6061"/>
+		</HostList>
+	</Extension>
+	<Extension Id="RPAiDTP.CEPBspMware">
+		<HostList>
+			<Host Name="IDSN" Port="6159"/>
+			<Host Name="PHXS" Port="6160"/>
+			<Host Name="ILST" Port="6161"/>
+		</HostList>
+	</Extension>
+	<Extension Id="RPAiDTP.CEPSpectrum">
+		<HostList>
+			<Host Name="IDSN" Port="6259"/>
+			<Host Name="PHXS" Port="6260"/>
+			<Host Name="ILST" Port="6261"/>
+		</HostList>
+	</Extension>
+</ExtensionList>

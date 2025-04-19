@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!ELEMENT Root (product+)>
+<!ELEMENT product (details, image)?>
+<!ELEMENT details (name, description, modelno, price)?>
+<!ELEMENT image EMPTY>
+<!ATTLIST image href CDATA #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT modelno (#PCDATA)>
+<!ELEMENT price (#PCDATA)>

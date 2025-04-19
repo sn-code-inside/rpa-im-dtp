@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+	<product>
+		<details>
+			<description>Kleiderschrank, weiß/beige. Vielfältig geeignet und individuell zusammensetzbar. Inneneinrichtung wie abgebildet. Inkl. Beleuchtung. 210 cm breit, 200 cm hoch, 59 cm tief.</description>
+			<name>Dolap</name>
+			<price>990,-</price>
+			<modelno>231.187</modelno>
+		</details>
+		<image href="file://assets/xmlBeispiel-bild01.eps"></image>
+	</product>
+	<product>
+		<details>
+			<description>Schrank, weiß/beige. Viele, individuell zusammensetzbare Ablagefächer. Inneneinrichtung wie abgebildet. Ohne Beleuchtung. 105 cm breit, 200 cm hoch, 59 cm tief.</description>
+			<name>Palod</name>
+			<price>490,-</price>
+			<modelno>250.520</modelno>
+		</details>
+		<image href="file://assets/xmlBeispiel-bild02.eps"></image>
+	</product>
+</Root>

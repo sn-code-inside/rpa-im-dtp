@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+	<script src="../js/CSInterface.js" defer></script>
+	<script src="../js/Vulcan.js" defer></script>
+	<script src="../js/main.js" defer></script>
+
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+<html>
+<body>
+	<h1 id="welcomeHello"></h1>
+	<p id="welcomeTxt"></p>
+	<p id="appMode"></p>
+	<input type="button" onclick="appInfo();" value="Anwendung" />
+	<input type="button" onclick="docName();" value="Dokumentenname" />
+	<hr>
+	<input type="button" onclick="docPagesJs();" value="Anzahl Dokumentenseiten (js; IDSN)" />
+	<input type="button" onclick="docPagesJsx();" value="Anzahl Dokumentenseiten (jsx; IDSN)" />
+	<hr>
+
+	<input id="but_registerKeys" type="button" onclick="registerKeys(this);" value="registerKeyEventsInterest" />
+	<div id="keyEventsArea"></div>
+
+	<hr>
+	<input type="button" onclick="returnVar();" value="returnVar" />
+	<input type="button" onclick="returnNumJs();" value="returnNum (js)" />
+	<input type="button" onclick="returnNumAsStringJs();" value="returnNumAsString (js)" />
+	<input type="button" onclick="returnNumJsx();" value="returnNum (jsx)" />
+	<input type="button" onclick="returnNumAsStringJsx();" value="returnNumAsString (jsx)" />
+	<input type="button" onclick="returnNumAsStringJsxParsed();" value="returnNumAsString (jsx; parsed)" />
+	<hr>
+
+	<fieldset id="dataExchItems">
+		<input type="radio" id="dataExchItem1" name="dataExchItem" value="String" />
+		<label for="dataExchItem1">String</label>
+
+		<input type="radio" id="dataExchItem2" name="dataExchItem" value="Number" />
+		<label for="dataExchItem2">Number</label>
+
+		<input type="radio" id="dataExchItem3" name="dataExchItem" value="Boolean" />
+		<label for="dataExchItem3">Boolean</label>
+
+		<input type="radio" id="dataExchItem4" name="dataExchItem" value="Array" />
+		<label for="dataExchItem4">Array</label>
+
+		<input type="radio" id="dataExchItem5" name="dataExchItem" value="Object" />
+		<label for="dataExchItem5">Object</label>
+
+	</fieldset>
+	<input type="button" onclick="exchangeData();" value="JS → JSX → JS" />
+	<hr>
+
+
+	<input id="but_elInit" type="button" onclick="elInit(this);" value="EventListener aktivieren" />
+	<hr>
+
+	<input type="button" onclick="vulcanMesssageInit();" value="VulcanMessage-Buttons generieren" />
+
+	<div id="vulcanMessageButArea"></div>
+
+	<hr>
+	<input type="button" onclick="location.href='index.html';" value="Panel-Neustart" />
+	<div id="docPagesResult"></div>
+</body>
+</html>
