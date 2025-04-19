@@ -1,0 +1,250 @@
+{
+  "id": "RPAiDTP.uxpExt",
+  "name": "RPAiDTP: UXP",
+  "version": "1.0.0",
+  "main": "html/index.html",
+  "host": [
+    {
+      "app": "ID",
+      "minVersion": "19.3.0"
+    },
+    {
+      "app": "PS",
+      "minVersion": "25.7.0"
+    }
+  ],
+  "manifestVersion": 5,
+  "requiredPermissions": {
+    "localFileSystem": "fullAccess",
+    "launchProcess": {
+      "schemes": [
+        "https",
+        "http"
+      ],
+      "extensions": [
+        "",
+        ".pdf"
+      ]
+    },
+    "network": {
+      "domains":
+      "all"
+    },
+    "allowCodeGenerationFromStrings": true
+  },
+  "featureFlags": {
+   "enableAlerts": true,
+   "enableSWCSupport": true
+ },
+ "entrypoints": [
+  {
+    "type": "command",
+    "id": "showAlert",
+    "label": "Show alert"
+  },
+  {
+    "type": "command",
+    "id": "newDoc",
+    "label": "Neues Dokument"
+  },
+  {
+    "type": "command",
+    "id": "eventListener",
+    "label": "EventListener aktivieren"
+  },
+  {
+    "type": "command",
+    "id": "sysInfo",
+    "label": "Systeminformationen"
+  },
+  {
+    "type": "panel",
+    "id": "showPanelMain",
+    "minimumSize": {
+      "width": 230,
+      "height": 200
+    },
+    "maximumSize": {
+      "width": 2000,
+      "height": 2000
+    },
+    "preferredDockedSize": {
+      "width": 300,
+      "height": 300
+    },
+    "preferredFloatingSize": {
+      "width": 300,
+      "height": 300
+    },
+    "label": {
+      "default": "Show panel"
+    },
+    "icons": [
+      {
+        "width": 23,
+        "height": 23,
+        "path": "icons/dark.png",
+        "scale": [
+          1,
+          2
+        ],
+        "theme": [
+          "darkest",
+          "dark",
+          "medium"
+        ]
+      },
+      {
+        "width": 23,
+        "height": 23,
+        "path": "icons/light.png",
+        "scale": [
+          1,
+          2
+        ],
+        "theme": [
+          "lightest",
+          "light"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "panel",
+    "id": "showPanelCssVars",
+    "minimumSize": {
+      "width": 230,
+      "height": 200
+    },
+    "maximumSize": {
+      "width": 2000,
+      "height": 2000
+    },
+    "preferredDockedSize": {
+      "width": 300,
+      "height": 300
+    },
+    "preferredFloatingSize": {
+      "width": 300,
+      "height": 300
+    },
+    "label": {
+      "default": "CSS Vars"
+    }
+  },
+  {
+    "type": "panel",
+    "id": "showPanelUi",
+    "minimumSize": {
+      "width": 230,
+      "height": 200
+    },
+    "maximumSize": {
+      "width": 2000,
+      "height": 2000
+    },
+    "preferredDockedSize": {
+      "width": 300,
+      "height": 300
+    },
+    "preferredFloatingSize": {
+      "width": 300,
+      "height": 300
+    },
+    "label": {
+      "default": "UI: Basic"
+    }
+  },
+  {
+    "type": "panel",
+    "id": "showPanelUiSpectrum",
+    "minimumSize": {
+      "width": 230,
+      "height": 200
+    },
+    "maximumSize": {
+      "width": 2000,
+      "height": 2000
+    },
+    "preferredDockedSize": {
+      "width": 300,
+      "height": 300
+    },
+    "preferredFloatingSize": {
+      "width": 300,
+      "height": 300
+    },
+    "label": {
+      "default": "UI: Spectrum"
+    }
+  },
+  {
+    "type": "panel",
+    "id": "showPanelUiSwc",
+    "minimumSize": {
+      "width": 230,
+      "height": 200
+    },
+    "maximumSize": {
+      "width": 2000,
+      "height": 2000
+    },
+    "preferredDockedSize": {
+      "width": 300,
+      "height": 300
+    },
+    "preferredFloatingSize": {
+      "width": 300,
+      "height": 300
+    },
+    "label": {
+      "default": "UI: SWC"
+    }
+  },
+  {
+    "type": "panel",
+    "id": "panelCsUxpMware",
+    "minimumSize": {
+      "width": 300,
+      "height": 690
+    },
+    "maximumSize": {
+      "width": 450,
+      "height": 2000
+    },
+    "preferredDockedSize": {
+      "width": 300,
+      "height": 690
+    },
+    "preferredFloatingSize": {
+      "width": 300,
+      "height": 690
+    },
+    "label": {
+      "default": "Fallbeispiel: UXP Middleware-Panel"
+    }
+  }
+],
+ "icons": [
+  {
+    "width": 48,
+    "height": 48,
+    "path": "icons/plugin.png",
+    "scale": [
+      1,
+      2
+    ],
+    "theme": [
+      "darkest",
+      "dark",
+      "medium",
+      "lightest",
+      "light",
+      "all"
+    ],
+    "species": [
+      "pluginList"
+    ]
+  }
+]
+}

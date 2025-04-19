@@ -1,0 +1,1 @@
+// s: https://github.com/Adobe-CEP/CEP-Resources/blob/master/CEP_11.x/Vulcan.js

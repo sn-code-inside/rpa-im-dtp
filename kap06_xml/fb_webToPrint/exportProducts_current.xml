@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<post>
+		<id>34</id>
+		<Title>Der Fremde</Title>
+		<SKU>kl-1</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Albert Camus</Author>
+		<RegularPrice>11.95</RegularPrice>
+	</post>
+	<post>
+		<id>23</id>
+		<Title>1984</Title>
+		<SKU>kl-2</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>George Orwell</Author>
+		<RegularPrice>6.95</RegularPrice>
+	</post>
+	<post>
+		<id>38</id>
+		<Title>Harry Potter</Title>
+		<SKU>kl-3</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>J. K. Rowling</Author>
+		<RegularPrice>8.95</RegularPrice>
+	</post>
+	<post>
+		<id>22</id>
+		<Title>Im Westen nichts Neues</Title>
+		<SKU>kl-4</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Erich Maria Remarque</Author>
+		<RegularPrice>9.95</RegularPrice>
+	</post>
+	<post>
+		<id>20</id>
+		<Title>Das Parfum</Title>
+		<SKU>kl-5</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Patrick Süskind</Author>
+		<RegularPrice>13.95</RegularPrice>
+	</post>
+	<post>
+		<id>24</id>
+		<Title>Die Blechtrommel</Title>
+		<SKU>kl-6</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Günter Grass</Author>
+		<RegularPrice>14.95</RegularPrice>
+	</post>
+	<post>
+		<id>25</id>
+		<Title>Der große Gatsby</Title>
+		<SKU>kl-7</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>F. Scott Fitzgerald</Author>
+		<RegularPrice>6.95</RegularPrice>
+	</post>
+	<post>
+		<id>26</id>
+		<Title>Hundert Jahre Einsamkeit</Title>
+		<SKU>kl-8</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Gabriel García Márquez</Author>
+		<RegularPrice>24.95</RegularPrice>
+	</post>
+	<post>
+		<id>27</id>
+		<Title>Der Name der Rose</Title>
+		<SKU>kl-9</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Umberto Eco</Author>
+		<RegularPrice>32.95</RegularPrice>
+	</post>
+	<post>
+		<id>28</id>
+		<Title>Die Ermordung des Commendatore</Title>
+		<SKU>kl-10</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Haruki Murakami</Author>
+		<RegularPrice>9.95</RegularPrice>
+	</post>
+	<post>
+		<id>29</id>
+		<Title>Unterwegs</Title>
+		<SKU>kl-11</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Jack Kerouac</Author>
+		<RegularPrice>11.95</RegularPrice>
+	</post>
+	<post>
+		<id>30</id>
+		<Title>Sturmhöhe</Title>
+		<SKU>kl-12</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Emily Brontë</Author>
+		<RegularPrice>9.95</RegularPrice>
+	</post>
+	<post>
+		<id>31</id>
+		<Title>Buddenbrooks</Title>
+		<SKU>kl-13</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Thomas Mann</Author>
+		<RegularPrice>9.95</RegularPrice>
+	</post>
+	<post>
+		<id>32</id>
+		<Title>Die Verwandlung</Title>
+		<SKU>kl-14</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Franz Kafka</Author>
+		<RegularPrice>3.95</RegularPrice>
+	</post>
+	<post>
+		<id>33</id>
+		<Title>Anna Karenina</Title>
+		<SKU>kl-15</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Leo Tolstoi</Author>
+		<RegularPrice>18.95</RegularPrice>
+	</post>
+	<post>
+		<id>21</id>
+		<Title>Stolz und Vorurteil</Title>
+		<SKU>kl-16</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Jane Austen</Author>
+		<RegularPrice>8.95</RegularPrice>
+	</post>
+	<post>
+		<id>35</id>
+		<Title>Der kleine Prinz</Title>
+		<SKU>kl-17</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Antoine de Saint-Exupéry</Author>
+		<RegularPrice>3.95</RegularPrice>
+	</post>
+	<post>
+		<id>36</id>
+		<Title>Tagebuch</Title>
+		<SKU>kl-18</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Anne Frank</Author>
+		<RegularPrice>8.95</RegularPrice>
+	</post>
+	<post>
+		<id>37</id>
+		<Title>Frankenstein</Title>
+		<SKU>kl-19</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Mary Shelley</Author>
+		<RegularPrice>9.95</RegularPrice>
+	</post>
+	<post>
+		<id>17</id>
+		<Title>Das Bildnis des Dorian Gray</Title>
+		<SKU>kl-20</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Oscar Wilde</Author>
+		<RegularPrice>11.95</RegularPrice>
+	</post>
+	<post>
+		<id>49</id>
+		<Title>Odyssee</Title>
+		<SKU>kl-21</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Homer</Author>
+		<RegularPrice>9.95</RegularPrice>
+	</post>
+	<post>
+		<id>50</id>
+		<Title>Apologie</Title>
+		<SKU>kl-22</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Platon</Author>
+		<RegularPrice>8.95</RegularPrice>
+	</post>
+	<post>
+		<id>51</id>
+		<Title>Aeneis</Title>
+		<SKU>kl-23</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Vergil</Author>
+		<RegularPrice>7.95</RegularPrice>
+	</post>
+	<post>
+		<id>52</id>
+		<Title>Germania</Title>
+		<SKU>kl-24</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Tacitus</Author>
+		<RegularPrice>11.95</RegularPrice>
+	</post>
+	<post>
+		<id>53</id>
+		<Title>Bekenntnisse</Title>
+		<SKU>kl-25</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Augustinus</Author>
+		<RegularPrice>8.95</RegularPrice>
+	</post>
+	<post>
+		<id>54</id>
+		<Title>Die Erzählungen aus den 1001 Nächten</Title>
+		<SKU>kl-26</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Antoine Galland</Author>
+		<RegularPrice>9.95</RegularPrice>
+	</post>
+	<post>
+		<id>55</id>
+		<Title>Parzival</Title>
+		<SKU>kl-27</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Wolfram von Eschenbach</Author>
+		<RegularPrice>11.95</RegularPrice>
+	</post>
+	<post>
+		<id>56</id>
+		<Title>Tristan</Title>
+		<SKU>kl-28</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Gottfried von Straßburg</Author>
+		<RegularPrice>8.95</RegularPrice>
+	</post>
+	<post>
+		<id>57</id>
+		<Title>Die Göttliche Komödie</Title>
+		<SKU>kl-29</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Dante Alighieri</Author>
+		<RegularPrice>7.95</RegularPrice>
+	</post>
+	<post>
+		<id>58</id>
+		<Title>Das Dekameron</Title>
+		<SKU>kl-30</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Giovanni Boccaccio</Author>
+		<RegularPrice>9.95</RegularPrice>
+	</post>
+	<post>
+		<id>59</id>
+		<Title>Utopia</Title>
+		<SKU>kl-31</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Thomas Morus</Author>
+		<RegularPrice>11.95</RegularPrice>
+	</post>
+	<post>
+		<id>60</id>
+		<Title>Gargantua und Pantagruel</Title>
+		<SKU>kl-32</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>François Rabelais</Author>
+		<RegularPrice>6.95</RegularPrice>
+	</post>
+	<post>
+		<id>61</id>
+		<Title>Essais</Title>
+		<SKU>kl-33</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Michel de Montaigne</Author>
+		<RegularPrice>9.95</RegularPrice>
+	</post>
+	<post>
+		<id>62</id>
+		<Title>Gedanken</Title>
+		<SKU>kl-34</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Blaise Pascal</Author>
+		<RegularPrice>8.95</RegularPrice>
+	</post>
+	<post>
+		<id>63</id>
+		<Title>Robinson Crusoe</Title>
+		<SKU>kl-35</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Daniel Defoe</Author>
+		<RegularPrice>9.95</RegularPrice>
+	</post>
+	<post>
+		<id>64</id>
+		<Title>Gullivers Reisen</Title>
+		<SKU>kl-36</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Jonathan Swift</Author>
+		<RegularPrice>11.95</RegularPrice>
+	</post>
+	<post>
+		<id>65</id>
+		<Title>Tom Jones</Title>
+		<SKU>kl-37</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Henry Fielding</Author>
+		<RegularPrice>11.95</RegularPrice>
+	</post>
+	<post>
+		<id>66</id>
+		<Title>Candide oder der Optimismus</Title>
+		<SKU>kl-38</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Voltaire</Author>
+		<RegularPrice>8.95</RegularPrice>
+	</post>
+	<post>
+		<id>67</id>
+		<Title>Die Leiden des jungen Werthers</Title>
+		<SKU>kl-39</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Johann Wolfgang Goethe</Author>
+		<RegularPrice>11.95</RegularPrice>
+	</post>
+	<post>
+		<id>68</id>
+		<Title>Anti-Goeze</Title>
+		<SKU>kl-40</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Gotthold Ephraim Lessing</Author>
+		<RegularPrice>11.95</RegularPrice>
+	</post>
+	<post>
+		<id>69</id>
+		<Title>Anton Reiser</Title>
+		<SKU>kl-41</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Karl Philipp Moritz</Author>
+		<RegularPrice>11.95</RegularPrice>
+	</post>
+	<post>
+		<id>70</id>
+		<Title>Zum ewigen Frieden</Title>
+		<SKU>kl-42</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Immanuel Kant</Author>
+		<RegularPrice>9.95</RegularPrice>
+	</post>
+	<post>
+		<id>71</id>
+		<Title>Der arme Mann im Tockenburg</Title>
+		<SKU>kl-43</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Ulrich Bräker</Author>
+		<RegularPrice>7.95</RegularPrice>
+	</post>
+	<post>
+		<id>72</id>
+		<Title>Ästhetische Schriften</Title>
+		<SKU>kl-44</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Friedrich Schiller</Author>
+		<RegularPrice>11.95</RegularPrice>
+	</post>
+	<post>
+		<id>73</id>
+		<Title>Jacques der Fatalist und sein Herr</Title>
+		<SKU>kl-45</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Denis Diderot</Author>
+		<RegularPrice>11.95</RegularPrice>
+	</post>
+	<post>
+		<id>74</id>
+		<Title>Siebenkäs</Title>
+		<SKU>kl-46</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Jean Paul</Author>
+		<RegularPrice>8.95</RegularPrice>
+	</post>
+	<post>
+		<id>75</id>
+		<Title>Hyperion</Title>
+		<SKU>kl-47</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Friedrich Hölderlin</Author>
+		<RegularPrice>11.95</RegularPrice>
+	</post>
+	<post>
+		<id>76</id>
+		<Title>Sudelbücher</Title>
+		<SKU>kl-48</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Georg Christoph Lichtenberg</Author>
+		<RegularPrice>11.95</RegularPrice>
+	</post>
+	<post>
+		<id>77</id>
+		<Title>Die Wahlverwandtschaften</Title>
+		<SKU>kl-49</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Johann Wolfgang Goethe</Author>
+		<RegularPrice>9.95</RegularPrice>
+	</post>
+	<post>
+		<id>78</id>
+		<Title>Erzählungen</Title>
+		<SKU>kl-50</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Heinrich von Kleist</Author>
+		<RegularPrice>8.95</RegularPrice>
+	</post>
+	<post>
+		<id>79</id>
+		<Title>Das Schatzkästlein des Rheinischen Hausfreunds</Title>
+		<SKU>kl-51</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Johann Peter Hebel</Author>
+		<RegularPrice>16.95</RegularPrice>
+	</post>
+	<post>
+		<id>80</id>
+		<Title>Kinder- und Hausmärchen</Title>
+		<SKU>kl-52</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Brüder Grimm</Author>
+		<RegularPrice>6.95</RegularPrice>
+	</post>
+	<post>
+		<id>81</id>
+		<Title>Geschichte meines Lebens</Title>
+		<SKU>kl-53</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Giacomo Casanova</Author>
+		<RegularPrice>8.95</RegularPrice>
+	</post>
+	<post>
+		<id>82</id>
+		<Title>Aus dem Leben eines Taugenichts</Title>
+		<SKU>kl-54</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Joseph von Eichendorff</Author>
+		<RegularPrice>15.95</RegularPrice>
+	</post>
+	<post>
+		<id>83</id>
+		<Title>Rot und Schwarz</Title>
+		<SKU>kl-55</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Stendhal</Author>
+		<RegularPrice>12.95</RegularPrice>
+	</post>
+	<post>
+		<id>84</id>
+		<Title>Lenz</Title>
+		<SKU>kl-56</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Georg Büchner</Author>
+		<RegularPrice>6.95</RegularPrice>
+	</post>
+	<post>
+		<id>85</id>
+		<Title>Verlorene Illusionen</Title>
+		<SKU>kl-57</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Honoré de Balzac</Author>
+		<RegularPrice>8.95</RegularPrice>
+	</post>
+	<post>
+		<id>86</id>
+		<Title>Oliver Twist</Title>
+		<SKU>kl-58</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Charles Dickens</Author>
+		<RegularPrice>4.95</RegularPrice>
+	</post>
+	<post>
+		<id>87</id>
+		<Title>Die toten Seelen</Title>
+		<SKU>kl-59</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Nikolai Gogol</Author>
+		<RegularPrice>18.95</RegularPrice>
+	</post>
+	<post>
+		<id>88</id>
+		<Title>Deutschland. Ein Wintermärchen</Title>
+		<SKU>kl-60</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Heinrich Heine</Author>
+		<RegularPrice>17.95</RegularPrice>
+	</post>
+	<post>
+		<id>89</id>
+		<Title>Phantastische Erzählungen</Title>
+		<SKU>kl-61</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Edgar Allan Poe</Author>
+		<RegularPrice>13.95</RegularPrice>
+	</post>
+	<post>
+		<id>90</id>
+		<Title>Moby Dick</Title>
+		<SKU>kl-62</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Herman Melville</Author>
+		<RegularPrice>8.95</RegularPrice>
+	</post>
+	<post>
+		<id>91</id>
+		<Title>Parerga und Paralipomena</Title>
+		<SKU>kl-63</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Arthur Schopenhauer</Author>
+		<RegularPrice>8.95</RegularPrice>
+	</post>
+	<post>
+		<id>92</id>
+		<Title>Der achtzehnte Brumaire des Louis Bonaparte</Title>
+		<SKU>kl-64</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Karl Marx</Author>
+		<RegularPrice>9.95</RegularPrice>
+	</post>
+	<post>
+		<id>93</id>
+		<Title>Märchen</Title>
+		<SKU>kl-65</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Hans Christian Andersen</Author>
+		<RegularPrice>24.95</RegularPrice>
+	</post>
+	<post>
+		<id>94</id>
+		<Title>Der grüne Heinrich</Title>
+		<SKU>kl-66</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Gottfried Keller</Author>
+		<RegularPrice>12.95</RegularPrice>
+	</post>
+	<post>
+		<id>95</id>
+		<Title>Madame Bovary</Title>
+		<SKU>kl-67</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Gustave Flaubert</Author>
+		<RegularPrice>13.95</RegularPrice>
+	</post>
+	<post>
+		<id>96</id>
+		<Title>Oblomow</Title>
+		<SKU>kl-68</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Iwan Gontscharow</Author>
+		<RegularPrice>8.95</RegularPrice>
+	</post>
+	<post>
+		<id>97</id>
+		<Title>Die Elenden</Title>
+		<SKU>kl-69</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Victor Hugo</Author>
+		<RegularPrice>5.95</RegularPrice>
+	</post>
+	<post>
+		<id>98</id>
+		<Title>Alice im Wunderland</Title>
+		<SKU>kl-70</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Lewis Carroll</Author>
+		<RegularPrice>9.95</RegularPrice>
+	</post>
+	<post>
+		<id>99</id>
+		<Title>Väter und Söhne</Title>
+		<SKU>kl-71</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Iwan Turgenew</Author>
+		<RegularPrice>28.95</RegularPrice>
+	</post>
+	<post>
+		<id>100</id>
+		<Title>Krieg und Frieden</Title>
+		<SKU>kl-72</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Leo Tolstoi</Author>
+		<RegularPrice>16.95</RegularPrice>
+	</post>
+	<post>
+		<id>101</id>
+		<Title>Die Dämonen</Title>
+		<SKU>kl-73</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Fjodor M. Dostojewski</Author>
+		<RegularPrice>13.95</RegularPrice>
+	</post>
+	<post>
+		<id>102</id>
+		<Title>Menschliches, Allzumenschliches</Title>
+		<SKU>kl-74</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Friedrich Nietzsche</Author>
+		<RegularPrice>9.95</RegularPrice>
+	</post>
+	<post>
+		<id>103</id>
+		<Title>Sohn einer Magd</Title>
+		<SKU>kl-75</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>August Strindberg</Author>
+		<RegularPrice>21.95</RegularPrice>
+	</post>
+	<post>
+		<id>104</id>
+		<Title>Hunger</Title>
+		<SKU>kl-76</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Knut Hamsun</Author>
+		<RegularPrice>20.95</RegularPrice>
+	</post>
+	<post>
+		<id>105</id>
+		<Title>Das Bildnis des Dorian Gray</Title>
+		<SKU>kl-77</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Oscar Wilde</Author>
+		<RegularPrice>9.95</RegularPrice>
+	</post>
+	<post>
+		<id>106</id>
+		<Title>Erzählungen</Title>
+		<SKU>kl-78</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Anton Tschechow</Author>
+		<RegularPrice>8.95</RegularPrice>
+	</post>
+	<post>
+		<id>107</id>
+		<Title>Der Stechlin</Title>
+		<SKU>kl-79</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Theodor Fontane</Author>
+		<RegularPrice>8.95</RegularPrice>
+	</post>
+	<post>
+		<id>108</id>
+		<Title>Der Untertan</Title>
+		<SKU>kl-80</SKU>
+		<CategoryID>59</CategoryID>
+		<Author>Heinrich Mann</Author>
+		<RegularPrice>12.95</RegularPrice>
+	</post>
+	<post>
+		<id>39</id>
+		<Title>Respect</Title>
+		<SKU>mu-1</SKU>
+		<CategoryID>60</CategoryID>
+		<Author>Aretha Franklin</Author>
+		<RegularPrice>12.95</RegularPrice>
+	</post>
+	<post>
+		<id>40</id>
+		<Title>Fight the Power</Title>
+		<SKU>mu-2</SKU>
+		<CategoryID>60</CategoryID>
+		<Author>Public Enemy</Author>
+		<RegularPrice>12.95</RegularPrice>
+	</post>
+	<post>
+		<id>41</id>
+		<Title>A Change Is Gonna Come</Title>
+		<SKU>mu-3</SKU>
+		<CategoryID>60</CategoryID>
+		<Author>Sam Cooke</Author>
+		<RegularPrice>12.95</RegularPrice>
+	</post>
+	<post>
+		<id>42</id>
+		<Title>Like a Rolling Stone</Title>
+		<SKU>mu-4</SKU>
+		<CategoryID>60</CategoryID>
+		<Author>Bob Dylan</Author>
+		<RegularPrice>12.95</RegularPrice>
+	</post>
+	<post>
+		<id>43</id>
+		<Title>Smells Like Teen Spirit</Title>
+		<SKU>mu-5</SKU>
+		<CategoryID>60</CategoryID>
+		<Author>Nirvana</Author>
+		<RegularPrice>12.95</RegularPrice>
+	</post>
+	<post>
+		<id>44</id>
+		<Title>What's Going On</Title>
+		<SKU>mu-6</SKU>
+		<CategoryID>60</CategoryID>
+		<Author>Marvin Gaye</Author>
+		<RegularPrice>12.95</RegularPrice>
+	</post>
+	<post>
+		<id>45</id>
+		<Title>Strawberry Fields Forever</Title>
+		<SKU>mu-7</SKU>
+		<CategoryID>60</CategoryID>
+		<Author>The Beatles</Author>
+		<RegularPrice>12.95</RegularPrice>
+	</post>
+	<post>
+		<id>46</id>
+		<Title>Get Ur Freak On</Title>
+		<SKU>mu-8</SKU>
+		<CategoryID>60</CategoryID>
+		<Author>Missy Elliott</Author>
+		<RegularPrice>9.95</RegularPrice>
+	</post>
+	<post>
+		<id>47</id>
+		<Title>Dreams</Title>
+		<SKU>mu-9</SKU>
+		<CategoryID>60</CategoryID>
+		<Author>Fleetwood Mac</Author>
+		<RegularPrice>8.95</RegularPrice>
+	</post>
+	<post>
+		<id>48</id>
+		<Title>Hey Ya!</Title>
+		<SKU>mu-10</SKU>
+		<CategoryID>60</CategoryID>
+		<Author>Outkast</Author>
+		<RegularPrice>10.95</RegularPrice>
+	</post>
+</data>

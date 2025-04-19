@@ -1,0 +1,32 @@
+div.panel {
+  position: relative;
+  padding: 12px;
+
+}
+.wrapper {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100px;
+  flex-direction: column;
+  display: flex;
+  padding: 12px;
+}
+
+#themeArea {
+  background-color: var(--uxp-host-background-color);
+  color: var(--uxp-host-text-color);
+  border-color: var(--uxp-host-border-color);
+  font-size: var(--uxp-host-font-size);
+}
+
+#panelCsUxpMware sp-divider {
+  margin: 8px 0;
+}
+
+#panelCsUxpMware sp-body {
+  margin-bottom: 0;
+}

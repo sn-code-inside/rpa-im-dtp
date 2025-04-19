@@ -1,0 +1,13 @@
+const { app } = require("indesign");
+
+let doc = app.documents.add();
+
+doc.documentPreferences.pageHeight = "100mm";
+doc.documentPreferences.pageWidth = "100mm";
+
+let p = doc.pages.item(0);
+
+let tf = p.textFrames.add({
+    geometricBounds: ["20mm", "20mm", "30mm", "80mm"],
+    contents: "Hello world!"
+});

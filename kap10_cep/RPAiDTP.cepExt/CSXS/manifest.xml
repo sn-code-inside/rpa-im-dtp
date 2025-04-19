@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ExtensionManifest Version="7.0" ExtensionBundleId="RPAiDTP" ExtensionBundleVersion="1.0" ExtentionBundleName="RPAiDTP: CEP" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <ExtensionList>
+        <Extension Id="RPAiDTP.CEPPanel" Version="1.0"/>
+        <Extension Id="RPAiDTP.CEPPanelTwo" Version="1.0"/>
+        <Extension Id="RPAiDTP.CEPPanelThree" Version="1.0"/>
+        <Extension Id="RPAiDTP.CEPModal" Version="1.0"/>
+        <Extension Id="RPAiDTP.CEPModeless" Version="1.0"/>
+        <Extension Id="RPAiDTP.CEPBspMware" Version="1.0"/>
+        <Extension Id="RPAiDTP.CEPSpectrum" Version="1.0"/>
+    </ExtensionList>
+
+    <ExecutionEnvironment>
+        <HostList>
+            <Host Name="IDSN" Version="11.0"/>
+            <Host Name="ILST" Version="22.0"/>
+            <Host Name="PHSP" Version="16.0"/>
+            <Host Name="PHXS" Version="16.0"/>
+            <Host Name="KBRG" Version="7.0"/>
+        </HostList>
+
+        <LocaleList>
+            <Locale Code="de_DE"/>
+            <Locale Code="en_GB"/>
+        </LocaleList>
+
+        <RequiredRuntimeList>
+            <RequiredRuntime Name="CSXS" Version="7.0"/>
+        </RequiredRuntimeList>
+    </ExecutionEnvironment>
+
+    <DispatchInfoList>
+        <Extension Id="RPAiDTP.CEPPanel">
+            <DispatchInfo>
+                <Resources>
+                    <MainPath>./html/index.html</MainPath>
+                    <ScriptPath>./jsx/main.jsx</ScriptPath>
+                    <CEFCommandLine>
+                        <Parameter>--enable-nodejs</Parameter>
+                        <Parameter>--mixed-context</Parameter>
+                    </CEFCommandLine>
+                </Resources>
+                <UI>
+                    <Type>Panel</Type>
+                    <Menu>RPAiDTP: CEP Panel</Menu>
+                    <Geometry>
+                        <Size>
+                            <Height>1100</Height>
+                            <Width>440</Width>
+                        </Size>
+                        <MaxSize>
+                            <Height>1600</Height>
+                            <Width>1600</Width>
+                        </MaxSize>
+                        <MinSize>
+                            <Height>50</Height>
+                            <Width>50</Width>
+                        </MinSize>
+                    </Geometry>
+                </UI>
+            </DispatchInfo>
+        </Extension>
+
+        <Extension Id="RPAiDTP.CEPPanelTwo">
+            <DispatchInfo>
+                <Resources>
+                    <MainPath>./html/index-two.html</MainPath>
+                    <ScriptPath>./jsx/main-two.jsx</ScriptPath>
+                    <CEFCommandLine>
+                        <Parameter>--enable-nodejs</Parameter>
+                        <Parameter>--mixed-context</Parameter>
+                    </CEFCommandLine>
+                </Resources>
+                <UI>
+                    <Type>Panel</Type>
+                    <Menu>RPAiDTP: CEP Panel Two</Menu>
+                    <Geometry>
+                        <Size>
+                            <Height>1100</Height>
+                            <Width>440</Width>
+                        </Size>
+                        <MaxSize>
+                            <Height>1600</Height>
+                            <Width>1600</Width>
+                        </MaxSize>
+                        <MinSize>
+                            <Height>50</Height>
+                            <Width>50</Width>
+                        </MinSize>
+                    </Geometry>
+                </UI>
+            </DispatchInfo>
+        </Extension>
+
+        <Extension Id="RPAiDTP.CEPPanelThree">
+            <DispatchInfo>
+                <Resources>
+                    <MainPath>./html/index-three.html</MainPath>
+                    <ScriptPath>./jsx/main-three.jsx</ScriptPath>
+                    <CEFCommandLine>
+                        <Parameter>--enable-nodejs</Parameter>
+                        <Parameter>--mixed-context</Parameter>
+                    </CEFCommandLine>
+                </Resources>
+                <UI>
+                    <Type>Panel</Type>
+                    <Menu>RPAiDTP: CEP Panel Three</Menu>
+                    <Geometry>
+                        <Size>
+                            <Height>150</Height>
+                            <Width>150</Width>
+                        </Size>
+                        <MaxSize>
+                            <Height>1600</Height>
+                            <Width>1600</Width>
+                        </MaxSize>
+                        <MinSize>
+                            <Height>150</Height>
+                            <Width>150</Width>
+                        </MinSize>
+                    </Geometry>
+                </UI>
+            </DispatchInfo>
+        </Extension>
+
+        <Extension Id="RPAiDTP.CEPModal">
+            <DispatchInfo>
+                <Resources>
+                    <MainPath>./html/index.html</MainPath>
+                    <ScriptPath>./jsx/main.jsx</ScriptPath>
+                    <CEFCommandLine>
+                        <Parameter>--enable-nodejs</Parameter>
+                        <Parameter>--mixed-context</Parameter>
+                    </CEFCommandLine>
+                </Resources>
+                <UI>
+                    <Type>ModalDialog</Type>
+                    <Menu>RPAiDTP: CEP ModalDialog</Menu>
+                    <Geometry>
+                        <Size>
+                            <Height>1100</Height>
+                            <Width>440</Width>
+                        </Size>
+                        <MaxSize>
+                            <Height>1600</Height>
+                            <Width>1600</Width>
+                        </MaxSize>
+                        <MinSize>
+                            <Height>50</Height>
+                            <Width>50</Width>
+                        </MinSize>
+                    </Geometry>
+                </UI>
+            </DispatchInfo>
+        </Extension>
+
+        <Extension Id="RPAiDTP.CEPModeless">
+            <DispatchInfo>
+                <Resources>
+                    <MainPath>./html/index.html</MainPath>
+                    <ScriptPath>./jsx/main.jsx</ScriptPath>
+                    <CEFCommandLine>
+                        <Parameter>--enable-nodejs</Parameter>
+                        <Parameter>--mixed-context</Parameter>
+                    </CEFCommandLine>
+                </Resources>
+                <UI>
+                    <Type>Modeless</Type>
+                    <Menu>RPAiDTP: CEP Modeless</Menu>
+                    <Geometry>
+                        <Size>
+                            <Height>1100</Height>
+                            <Width>440</Width>
+                        </Size>
+                        <MaxSize>
+                            <Height>1600</Height>
+                            <Width>1600</Width>
+                        </MaxSize>
+                        <MinSize>
+                            <Height>50</Height>
+                            <Width>50</Width>
+                        </MinSize>
+                    </Geometry>
+                </UI>
+            </DispatchInfo>
+        </Extension>
+
+        <Extension Id="RPAiDTP.CEPBspMware">
+            <DispatchInfo>
+                <Resources>
+                    <MainPath>./html/index-csMware.html</MainPath>
+                    <ScriptPath>./jsx/main.jsx</ScriptPath>
+                    <CEFCommandLine>
+                        <Parameter>--enable-nodejs</Parameter>
+                        <Parameter>--mixed-context</Parameter>
+                    </CEFCommandLine>
+                </Resources>
+                <UI>
+                    <Type>Panel</Type>
+                    <Menu>RPAiDTP: Fallbeispiel - Middleware</Menu>
+                    <Geometry>
+                        <Size>
+                            <Height>1100</Height>
+                            <Width>440</Width>
+                        </Size>
+                        <MaxSize>
+                            <Height>1600</Height>
+                            <Width>1600</Width>
+                        </MaxSize>
+                        <MinSize>
+                            <Height>50</Height>
+                            <Width>50</Width>
+                        </MinSize>
+                    </Geometry>
+                </UI>
+            </DispatchInfo>
+        </Extension>
+
+        <Extension Id="RPAiDTP.CEPSpectrum">
+            <DispatchInfo>
+                <Resources>
+                    <MainPath>./html/index-spectrum.html</MainPath>
+                    <ScriptPath>./jsx/main.jsx</ScriptPath>
+                    <CEFCommandLine>
+                        <Parameter>--enable-nodejs</Parameter>
+                        <Parameter>--mixed-context</Parameter>
+                    </CEFCommandLine>
+                </Resources>
+                <UI>
+                    <Type>Panel</Type>
+                    <Menu>RPAiDTP: Spectrum CSS</Menu>
+                    <Geometry>
+                        <Size>
+                            <Height>1100</Height>
+                            <Width>440</Width>
+                        </Size>
+                        <MaxSize>
+                            <Height>1600</Height>
+                            <Width>1600</Width>
+                        </MaxSize>
+                        <MinSize>
+                            <Height>50</Height>
+                            <Width>50</Width>
+                        </MinSize>
+                    </Geometry>
+                </UI>
+            </DispatchInfo>
+        </Extension>
+
+    </DispatchInfoList>
+</ExtensionManifest>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!ELEMENT Root (Textabschnitt)>
+<!ELEMENT Textabschnitt (Tabelle)>
+<!ELEMENT Tabelle (ZelleHeader|Zelle)*>
+<!ELEMENT Zelle (Title|Author|RegularPrice|SKU)*>
+<!ELEMENT Title (#PCDATA)>
+<!ELEMENT Author (#PCDATA)>
+<!ELEMENT RegularPrice (#PCDATA)>
+<!ELEMENT SKU (#PCDATA)>
+<!ELEMENT ZelleHeader (#PCDATA)>

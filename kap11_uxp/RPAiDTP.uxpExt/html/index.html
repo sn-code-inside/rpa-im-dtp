@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="main.js"></script>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+  <div class="panel" id="panelMain">
+    Hello world!
+  </div>
+
+  <div class="panel" id="panelCssVars">
+    <div id="themeArea">
+      <p style="color: var(--uxp-host-text-color)">text-color</p>
+      <p style="color: var(--uxp-host-border-color)">border-color</p>
+      <p style="color: var(--uxp-host-link-text-color)">link-text-color</p>
+      <p style="color: var(--uxp-host-widget-hover-background-color)">widget-hover-background-color</p>
+      <p style="color: var(--uxp-host-widget-hover-text-color)">widget-hover-text-color</p>
+      <p style="color: var(--uxp-host-widget-hover-border-color)">widget-hover-border-color</p>
+      <p style="color: var(--uxp-host-text-color-secondary)">text-color-secondary</p>
+      <p style="color: var(--uxp-host-link-hover-text-color)">link-hover-text-color</p>
+      <p style="color: var(--uxp-host-label-text-color)">label-text-color</p>
+      <p style="font-size: var(--uxp-host-font-size)">font-size</p>
+      <p style="font-size: var(--uxp-host-font-size-smaller)">font-size-smaller</p>
+      <p style="font-size: var(--uxp-host-font-size-larger)">font-size-larger</p>    
+    </div>
+
+  </div>
+
+  <div class="panel" id="panelUi">
+
+    <button>Button</button>
+
+    <br>
+
+    <select style="width: 80%">
+      <option>Dropdown</option>
+    </select>
+
+    <textarea style="width: 80%; height: 50px"></textarea>
+
+    <br>
+
+    <input type="checkbox" />
+
+    <br>
+
+    <input type="radio" />
+
+    <br>
+
+
+    <input type="range">
+
+
+    <h1>Headline 1</h1>
+    <h2>Headline 2</h2>
+    <h3>Headline 3</h3>
+    <h4>Headline 4</h4>
+    <h5>Headline 5</h5>
+    <p>Paragraph</p>
+
+
+
+  </div>
+
+  <div class="panel" id="panelUiSpectrum">
+
+    <sp-body>Hello world!</sp-body>
+
+    <sp-button variant="primary">Button</sp-button>
+
+    <br>
+    <br>
+
+    <sp-dropdown placeholder="Dropdown" style="width: 80%">
+      <sp-menu slot="options">
+        <sp-menu-item>Option 1</sp-menu-item>
+        <sp-menu-item>Option 2</sp-menu-item>
+        <sp-menu-item>Option 3</sp-menu-item>
+      </sp-menu>
+    </sp-dropdown>
+
+    <br>
+    <br>
+
+    <sp-checkbox>Checkbox</sp-checkbox>
+
+    <br>
+
+    <sp-radio>Radio</sp-radio>
+
+    <br>
+
+    <sp-slider min="0" max="100" value="25"></sp-slider>
+
+  </div>
+
+
+
+  <div class="panel" id="panelUiSwc">
+
+    <sp-body>Hello world!</sp-body>
+
+    <sp-button variant="primary">Button</sp-button>
+
+    <br>
+    <br>
+
+    <sp-dropdown placeholder="Dropdown" style="width: 80%">
+      <sp-menu slot="options">
+        <sp-menu-item>Option 1</sp-menu-item>
+        <sp-menu-item>Option 2</sp-menu-item>
+        <sp-menu-item>Option 3</sp-menu-item>
+      </sp-menu>
+    </sp-dropdown>
+
+    <br>
+    <br>
+
+    <sp-checkbox>Checkbox</sp-checkbox>
+
+    <br>
+
+    <sp-radio>Radio</sp-radio>
+
+    <br>
+
+    <sp-slider min="0" max="100" value="25"></sp-slider>
+
+  </div>
+
+
+  <div class="panel" id="panelCsUxpMware">
+
+    <div class="container"> 
+      <sp-textfield id="input_jobno" placeholder="Auftragsnummer"></sp-textfield>
+      <sp-button variant="primary" id="butValidate">Suchen</sp-button>
+    </div>
+
+    <sp-divider></sp-divider>
+
+    <div class="container">
+      <h4 style="margin-bottom: 8px">Projektdetails</h4>
+      <sp-body><strong>Art.-Nr.: </strong><span id="projData_artno"></span></sp-body>
+      <sp-body><strong>Produktname: </strong><span id="projData_name"></span></sp-body>
+      <sp-body><strong>Produktvariation: </strong><span id="projData_variant"></span></sp-body>
+      <sp-body><strong>Marke: </strong><span id="projData_brand"></span></sp-body>
+      <sp-body><strong>Lieferant: </strong><span id="projData_suppl"></span></sp-body>
+      <sp-body><strong>Lieferdatum: </strong><span id="projData_delivery"></span></sp-body>
+      <sp-body><strong>Kontakt Lieferant: </strong><span id="projData_conSupp"></span></sp-body>
+      <sp-body><strong>Kontakt Händler: </strong><span id="projData_conMerch"></span></sp-body>
+      <sp-body><strong>Status: </strong><span id="projData_status"></span></sp-body>
+      <sp-body><strong>Bemerkungen: </strong><span id="projData_comments"></span></sp-body>
+
+      <div style="height: 100px; width: 100px; background-size: cover; float: right; margin-top: 10px" id="projImg"></div>
+    </div>
+
+    <sp-divider></sp-divider>
+
+
+    <div class="container">
+      <h5 style="margin-bottom: 8px">Projekt anzeigen im</h4>
+          <sp-button id="butUrlPmsys" variant="secondary" size="s">PM-System</sp-button>
+          <sp-button id="butUrlDummy" variant="secondary" size="s">Intranet</sp-button>
+          <sp-button id="butPath" variant="secondary" size="s">Dateisystem</sp-button>
+      </div>
+
+      <sp-divider></sp-divider>
+
+      <div class="container">
+        <h5 style="margin-bottom: 8px">Prozess: Status setzen auf</h4>
+            <sp-button id="butStatStart" variant="secondary" size="s">Start ausstehend</sp-button>
+            <sp-button id="butStatOngoing" variant="secondary" size="s">In Bearbeitung</sp-button>
+            <sp-button id="butStatDone" variant="secondary" size="s">Erledigt</sp-button>
+        </div>
+
+        <sp-divider></sp-divider>
+
+        <div class="container">
+          <h5 style="margin-bottom: 8px">Corporate Identity & Design</h4>
+              <sp-button variant="secondary" size="s">Brand-Richtlinien</sp-button>
+              <sp-button variant="secondary" size="s">Allgemeines</sp-button>
+          </div>
+
+          <sp-divider></sp-divider>
+
+          <div class="container">
+            <h5 style="margin-bottom: 8px">Dateien/Assets generieren</h4>
+                <sp-button id="butAssetXml" variant="secondary" size="s">XML-Datei</sp-button>
+                <sp-button id="butAssetPdf" variant="secondary" size="s">PDF-Datenblatt</sp-button>
+                <sp-button id="butAssetWeb" variant="secondary" size="s">Web-Ansichten</sp-button>
+            </div>
+
+            <sp-divider style="margin-bottom: 20px"></sp-divider>
+
+            <div class="container">
+                <sp-button variant="secondary" size="s">Zurücksetzen</sp-button>
+            </div>
+
+</div>
+
+</body>
+</html>
